@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+<body>
+    <form action="/register" method="post" target="_self">
+        <label class="label" id="fullname-label">
+            <b>fullname</b>
+        </label>
+        <input class="fullname" id="name-input" type="text" placeholder="input fullname">
+        <br>
+        <br>
+
+        <label class="label" id="email-label">
+            <b>email</b>
+        </label>
+        <input class="email" id="email-input" type="email" placeholder="input email">
+        <br>
+        <br>
+
+        <label class="label" id="phone-label">
+            <b>phone number</b>
+        </label>
+        <input class="phone" id="phone-input" type="number" placeholder="input phone number">
+        <br>
+        <br>
+
+        <label class="label" id="gender-label">
+            <b>gender : </b>
+        </label>
+        male <input type="radio" name="gender"> female <input type="radio" name="gender">
+        <br>
+        <br>
+
+        <label class="label" id="hobbies-label">
+            <b>hobbies</b>
+        </label>
+        <input class="hobbies" id="hobbies-input" type="checkbox" placeholder="choose hobbies">
+        <br>
+        <br>
+
+        <label class="label" id="dob-label">
+            <b>date of birth</b>
+        </label>
+        <input class="dob" id="dob-input" type="date" placeholder="input date of birth">
+        <br>
+        <br>
+
+        <label class="label" id="program-label">
+            <b>program of study</b>
+        </label>
+        <select name="study program" id="program-input">
+            <option value="" disabled selected hidden>select program</option>
+            <option value="information systems">information systems</option>
+            <option value="computer science">computer science</option>
+            <option value="cyber security">cyber security</option>
+            <option value="business analytics">business analytics</option>
+            <option value="artificial intelligence">artificial intelligence</option>
+            <option value="data science">data science</option>
+            <option value="software engineering">software engineering</option>
+        </select>
+        <br>
+        <br>
+
+        <label class="label" id="address-label">
+            <b>full address</b>
+        </label>
+        <textarea name="fulladdress" id="address-input"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="register">
+    </form>
+</body>
+</html>
