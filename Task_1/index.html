@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>eugene's-portfolio</title>
+    <style>
+    img {
+    border-radius: 100px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <center><h1>Hi! My name is <span style="color: #ff6d4d">Eugene :)</span></h1></center>
+    </header>
+    <br>
+    <br>
+    <section class="home"> 
+        <div class="home-img">
+            <center><img src="d:\E\OneDrive\Pictures\Camera Roll 1\solo.jpeg" alt="profile" width="100px"></center>
+        </div>
+        <br>
+        <div class="middle-section">
+            <center><p>Please follow my instagram : <a href="https://www.instagram.com/eugenegbrll/">eugenegbrll</a></p></center>
+            <div class="button-section">
+                <div class="button-container">
+                    <div class="circle-button" onclick="openPopup('popup1')">
+                        <center><img src="d:\E\OneDrive\Pictures\Camera Roll 1\hobbies.jpeg" alt="About"></center>
+                        <p>About</p>
+                    </div>
+                    <div class="circle-button" onclick="openPopup('popup2')">
+                        <center><img src="d:\E\OneDrive\Pictures\Camera Roll 1\skills.jpeg" alt="Skills"></center>
+                        <p>Skills</p>
+                    </div>
+                </div>
+            </div>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup1')">&times;</span>
+                <h2>About</h2>
+                <p>Hi! My name is <b><span style="color: #ff6d4d">Eugene Gabriella Setiawan.</span></b> Im 19 years old and im a student at <b><span style="color: #ff6d4d">Binus University</span></b>. I majored in <b><span style="color: #ff6d4d">Information Systems</span></b>. My birthday is in 21 September and my MBTI is ISTJ. I really like cold desserts like ice cream and i don't really like seafood.</p>
+                <h3>Hobbies</h3>
+                <ol>
+                    <li>movies & anime</li>
+                    <li>sleeping</li>
+                    <li>reading</li>
+                </ol>
+            </div>
+        </div>
+        <div id="popup2" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup2')">&times;</span>
+                <h2>Skills</h2>
+                <p>I'm currently learning and developing my creative and technical skills. I'm enthusiastic about continuing to improve these skills. Here are some of the skills I'm gradually learning and practicing.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>graphic design</li>
+                    <li>video editing</li>
+                    <li>database</li>
+                    <li>python</li>
+                </ul>
+                <h3>Tools</h3>
+                <ul>
+                    <li>canva</li>
+                    <li>capcut</li>
+                    <li>figma</li>
+                    <li>apex oracle</li>
+                    <li>vscode</li>
+                </ul>
+            </div>
+        </div>  
+    </section> 
+    <div class="full-block">
+    <h2><img src="d:\E\OneDrive\Pictures\Camera Roll 1\float.jpeg" alt="float" width="150px" class="floating-img"></h2>
+    </div>
+    <div class="bottom-section">
+    <p>@eugene 2025</p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
