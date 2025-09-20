@@ -45,7 +45,7 @@ body {
 
 .left-section {
   flex: 1;
-  background: url('https://wallpapercat.com/w/full/a/a/6/172117-1080x1920-mobile-1080p-moonlight-background.jpg') no-repeat center center/cover;
+  background: url('images/moonwave.jpg') no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,3 +146,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: gainsboro;
 }
+
