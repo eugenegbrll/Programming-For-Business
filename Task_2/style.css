@@ -1,0 +1,148 @@
+@media (max-width: 992px) {
+  body {
+    flex-direction: column; 
+  }
+
+  .left-section, .right-section {
+    flex: none;
+    width: 100%;
+    height: 50vh; 
+  }
+
+  .left-section {
+    text-align: center;
+  }
+
+  .right-section {
+    padding: 20px;
+    height: auto; 
+  }
+
+  form {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row; 
+  min-height: 100vh;   
+}
+
+.left-section {
+  flex: 1;
+  background: url('https://wallpapercat.com/w/full/a/a/6/172117-1080x1920-mobile-1080p-moonlight-background.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  text-align: center;
+}
+
+.left-section .overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.left-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.left-section p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.social-icons img {
+  width: 35px;   
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 40px 20px;
+  background: black;
+  color: #fff; 
+  overflow-y: auto; 
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+}
+
+form h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+form p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.label {
+  display: block;
+  margin: 8px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: gainsboro;
+}
