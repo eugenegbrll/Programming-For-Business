@@ -1,8 +1,8 @@
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   body {
     flex-direction: column; 
     height: auto;
-  }
+  } */
 
   .left-section, .right-section {
     flex: none;
@@ -171,4 +171,5 @@ input[type="submit"]:hover {
     width: 100%;
   }
 }
+
 
