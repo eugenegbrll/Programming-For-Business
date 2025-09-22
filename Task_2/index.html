@@ -8,87 +8,90 @@
     <title>Registrasi</title>
 </head>
 <body>
-    <div class="left-section">
-      <div class="overlay">
-        <h1>Welcome Page</h1>
-        <p>Below are my socials, please check them out. Thank you 😊</p>
-        <div class="social-icons">
-          <a href="https://github.com/eugenegbrll/library"><img src="images/github.png" alt="Github"></a>
-          <a href="https://www.instagram.com/eugenegbrll/"><img src="images/instagram.jpg" alt="Instagram"></a>
+    <div class="container">
+        <div class="left-section">
+            <div class="overlay">
+                <h1>Welcome Page</h1>
+                <p>Below are my socials, please check them out. Thank you 😊</p>
+                <div class="social-icons">
+                    <a href="https://github.com/eugenegbrll/library"><img src="images/github.png" alt="Github"></a>
+                    <a href="https://www.instagram.com/eugenegbrll/"><img src="images/instagram.jpg" alt="Instagram"></a>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="right-section">
+            <form action="/register" method="post" target="_self">
+                <h1>Sign Up</h1>
+                <p>Enter your personal data</p>
+                <label class="label" id="fullname-label">
+                    <b>fullname</b>
+                </label>
+                <input class="fullname" id="name-input" type="text" placeholder="input fullname">
+                <br>
+                
+                <label class="label" id="email-label">
+                    <b>email</b>
+                </label>
+                <input class="email" id="email-input" type="email" placeholder="input email">
+                <br>
+                
+                <label class="label" id="phone-label">
+                    <b>phone number</b>
+                </label>
+                <input class="phone" id="phone-input" type="number" placeholder="input phone number">
+                <br>
+                
+                <label class="label" id="gender-label">
+                    <b>gender : </b>
+                </label>
+                <input type="radio" name="gender"> male <input type="radio" name="gender"> female
+                <br>
+
+                <label class="label" id="hobbies-label">
+                    <b>hobbies</b>
+                </label>
+                <input type="checkbox"> reading
+                <input type="checkbox"> watching
+                <input type="checkbox"> arts
+                <input type="checkbox"> music
+                <input type="checkbox"> gaming
+                <br>
+                <br>
+
+                <label class="label" id="dob-label">
+                    <b>date of birth</b>
+                </label>
+                <input class="dob" id="dob-input" type="date" placeholder="input date of birth">
+                <br>
+
+                <label class="label" id="program-label">
+                    <b>program of study</b>
+                </label>
+                <select name="study program" id="program-input">
+                    <option value="" disabled selected hidden>select program</option>
+                    <option value="information systems">information systems</option>
+                    <option value="computer science">computer science</option>
+                    <option value="cyber security">cyber security</option>
+                    <option value="business analytics">business analytics</option>
+                    <option value="artificial intelligence">artificial intelligence</option>
+                    <option value="data science">data science</option>
+                    <option value="software engineering">software engineering</option>
+                </select>
+                <br>
+
+                <label class="label" id="address-label">
+                    <b>full address</b>
+                </label>
+                <textarea name="fulladdress" id="address-input"></textarea>
+                <br>
+
+                <input type="submit" value="register">
+            </form>
+        </div>
     </div>
-
-    <div class="right-section">
-        <form action="/register" method="post" target="_self">
-        <h1>Sign Up</h1>
-        <p>Enter your personal data</p>
-        <label class="label" id="fullname-label">
-            <b>fullname</b>
-        </label>
-        <input class="fullname" id="name-input" type="text" placeholder="input fullname">
-        <br>
-
-        <label class="label" id="email-label">
-            <b>email</b>
-        </label>
-        <input class="email" id="email-input" type="email" placeholder="input email">
-        <br>
-
-        <label class="label" id="phone-label">
-            <b>phone number</b>
-        </label>
-        <input class="phone" id="phone-input" type="number" placeholder="input phone number">
-        <br>
-
-        <label class="label" id="gender-label">
-            <b>gender : </b>
-        </label>
-        <input type="radio" name="gender"> male <input type="radio" name="gender"> female
-        <br>
-
-        <label class="label" id="hobbies-label">
-            <b>hobbies</b>
-        </label>
-        <input type="checkbox"> reading
-        <input type="checkbox"> watching
-        <input type="checkbox"> arts
-        <input type="checkbox"> music
-        <input type="checkbox"> gaming
-        <br>
-        <br>
-
-        <label class="label" id="dob-label">
-            <b>date of birth</b>
-        </label>
-        <input class="dob" id="dob-input" type="date" placeholder="input date of birth">
-        <br>
-
-        <label class="label" id="program-label">
-            <b>program of study</b>
-        </label>
-        <select name="study program" id="program-input">
-            <option value="" disabled selected hidden>select program</option>
-            <option value="information systems">information systems</option>
-            <option value="computer science">computer science</option>
-            <option value="cyber security">cyber security</option>
-            <option value="business analytics">business analytics</option>
-            <option value="artificial intelligence">artificial intelligence</option>
-            <option value="data science">data science</option>
-            <option value="software engineering">software engineering</option>
-        </select>
-        <br>
-
-        <label class="label" id="address-label">
-            <b>full address</b>
-        </label>
-        <textarea name="fulladdress" id="address-input"></textarea>
-        <br>
-
-        <input type="submit" value="register">
-    </form>
-    </div>
+    
     <script src="script.js"></script>
 </body>
 
 </html>
+
