@@ -6,14 +6,6 @@ function closePopup(id) {
   document.getElementById(id).style.display = "none";
 }
 
-function openPopup(id) {
-  document.getElementById(id).style.display = "flex";
-}
-
-function closePopup(id) {
-  document.getElementById(id).style.display = "none";
-}
-
 window.onclick = function(event) {
   const popups = document.querySelectorAll(".popup");
   popups.forEach(popup => {
@@ -22,3 +14,4 @@ window.onclick = function(event) {
     }
   });
 };
+
