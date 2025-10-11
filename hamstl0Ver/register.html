@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>hamstl0Ver - Register</title>
+</head>
+<body>
+    <header>
+        <h1>hamstl0Ver</h1>
+        <nav>
+            <ul>
+                <li><a href="./homepage.html">Home</a></li>
+                <li><a href="./register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <div class="register-overlay">
+                <form action="submit" id="form-container">
+                    <div class="form-div">
+                        <label for="input-username">username</label>
+                        <input type="text" id="input-username" placeholder="Enter username">
+                    </div>
+                    <br>
+                    <div class="form-div">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="input-email">
+                    </div>
+                    <br>
+                    <div class="form-div">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="input-password">
+                    </div>
+                    <br>
+                    <div class="form-div">
+                        <label for="confirm-password">confirm password</label>
+                        <input type="confirm-password" name="confirm-password" id="input-cpassword">
+                    </div>
+                    <br>
+                    <div class="form-div">
+                        <label for="dob">date of birth</label>
+                        <input type="date" name="dob" id="input-dob">
+                    </div>
+                    <br>
+                    <div class="form-div">
+                        <label for="radio-gender">gender</label>
+                        <div class="form-radio">
+                            <input type="radio" name="radio-gender" id="radio-male">
+                            <label>male</label>
+                            <input type="radio" name="radio-gender" id="radio-female">
+                            <label>female</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" name="input-agree" id="input-agree">
+                        <label for="input-agree">i agree with the terms</label>
+                    </div>
+                    <br>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@2025 hamstl0Ver</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
