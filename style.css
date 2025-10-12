@@ -1,0 +1,80 @@
+body{ /* selector element */
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* biar fullscreen */
+    background-color:#000000;
+    color: white; /* buat text */
+}
+
+#nav-container { /* selector id */
+    display: flex; /* biar rapi 1 row/col */
+    /* klo display: block ngambil full 1 row */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; /* jarak konten-border */
+    border-bottom: 1px solid white;
+}
+
+#logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-item { /* selector class */
+    color: white;
+    text-decoration: none; /* no underline etc */
+    margin-left: 8px;
+}
+
+#main-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 400px;
+    background-color: #2f2f2f;
+    border-radius: 8px; /* biar agak melengkung */
+    border: 1px solid white;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column; /* biar atas bawah */
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.input-container > input{
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.input-container > label {
+    font-size: 10px;
+}
+
+p{
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit {
+    padding: 12px;
+    background-color: #202a44;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
