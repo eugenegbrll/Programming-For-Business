@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <center><h1>Form Register</h1></center>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="submit" method="post">
+                <div class="input-area">
+                    <label for="fullname">fullname</label>
+                    <input type="text" id="fullname" placeholder="Enter fullname">
+                </div>
+                <br>
+                <div class="input-area">
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                </div>
+                <br>
+                <div class="input-area">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password">
+                </div>
+                <br>
+                <div class="input-area">
+                    <label for="cpassword">confirm password</label>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Confirm password">
+                </div>
+                <br>
+                <div class="input-area">
+                    <label for="phone">phone number</label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter phone number">
+                </div>
+                <br>
+                <div class="check-area">
+                    <label for="gender">gender</label>
+                        <div class="radio">
+                            <input type="radio" name="radio" id="radio-male">
+                            <label>male</label>
+                            <input type="radio" name="radio" id="radio-female">
+                            <label>female</label>
+                        </div>
+                </div>
+                <br>
+                <div class="check-area">
+                    <label for="hobby">Hobbies</label>
+                    <div class="hobbies">
+                        <input type="checkbox" id="watching">
+                        <label for="hobby">watching</label>
+                        <input type="checkbox" id="reading">
+                        <label for="hobby">reading</label>
+                        <input type="checkbox" id="sports">
+                        <label for="hobby">sports</label>
+                        <input type="checkbox" id="gaming">
+                        <label for="hobby">gaming</label>
+                        <input type="checkbox" id="traveling">
+                        <label for="hobby">traveling</label>
+                    </div>
+                </div>
+                <br>
+                <div class="check-area">
+                    <label for="country">Choose country:</label>
+                    <select id="country" name="country">
+                        <option disabled selected></option>
+                        <option>Afghanistan</option>
+                        <option>Indonesia</option>
+                        <option>Israel</option>
+                        <option>Palestine</option>
+                        <option>Pakistan</option>
+                        <option>Russia</option>
+                        <option>Ukraine</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="./register.js"></script>
+</html>
