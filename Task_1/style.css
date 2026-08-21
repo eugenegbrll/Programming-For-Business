@@ -194,8 +194,8 @@ p, h1, h2, h3 {
 }
 
 .bottom-section {
-  background: #42bfdd; 
-  padding: 10px;
+  background: #42bfdd;     
+  padding: 10px 0;
   text-align: center;
   color: white;
   font-size: 10px;
@@ -206,7 +206,17 @@ p, h1, h2, h3 {
   width: 180px;
   position: absolute;
   top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   animation: moveLeftRight 5s infinite alternate ease-in-out;
+}
+
+.full-block h2 {
+  margin: 0;
+}
+
+.bottom-section p {
+  margin: 0;               
 }
 
 @keyframes moveLeftRight {
