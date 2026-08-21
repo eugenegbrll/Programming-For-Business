@@ -214,9 +214,10 @@ p, h1, h2, h3 {
 .full-block h2 {
   margin: 0;
 }
+
 div.bottom-section > p {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
