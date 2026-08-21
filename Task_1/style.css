@@ -187,8 +187,6 @@ p, h1, h2, h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 10px;
   font-weight: bold;
   overflow: hidden; 
   position: relative;
@@ -197,16 +195,20 @@ p, h1, h2, h3 {
 .floating-img {
   width: 180px;
   position: absolute;
-  top: 40px;
+  top: 20px;
   animation: moveLeftRight 5s infinite alternate ease-in-out;
 }
 
 .full-block p {
   position: absolute;
-  font-size: 10px;
-  bottom: 15px;             
+  bottom: 15px;              
+  left: 50%;                 
+  transform: translateX(-50%);
   margin: 0;
-  z-index: 2;               
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  z-index: 10;               
 }
 
 @keyframes moveLeftRight {
