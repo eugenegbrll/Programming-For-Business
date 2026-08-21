@@ -197,9 +197,6 @@ p, h1, h2, h3 {
   background: #42bfdd;     
   padding: 10px 0;
   text-align: center;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
 }
 
 .floating-img {
@@ -215,17 +212,13 @@ p, h1, h2, h3 {
   margin: 0;
 }
 
-div.bottom-section > p {
+.bottom-section p {
   margin: 0;
+  font-size: 15px;
   font-size: 20px;
   font-weight: bold;
   color: white;
-}
-
-/* .bottom-section p {
-  margin: 0;
-  font-size: 15px !important;
-} */
+} 
 
 @keyframes moveLeftRight {
   from {
