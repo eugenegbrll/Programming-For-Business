@@ -197,7 +197,8 @@ p, h1, h2, h3 {
 
 .popup-content {
   background: #fff;
-  padding: 0;
+  padding: 25px 25px 35px 25px; 
+  /* padding: 0; */
   /* padding: 30px; */
   overflow: hidden; /* tambahan */
   border-radius: 10px;
@@ -223,8 +224,31 @@ p, h1, h2, h3 {
   font-size: 18px;
 }
 
+/* tambahan */
+.popup-body h3 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
 .popup-content p {
+  margin-bottom: 15px; /* tambahan */
   padding: 20px;
+  font-size: 15px;
+}
+
+/* tambahan */
+.popup-body ul, 
+.popup-body ol {
+  display: inline-block;          
+  text-align: left;               
+  list-style-position: inside;    
+  padding: 0;
+  margin: 0 auto 15px auto;
+}
+
+/* tambahan */
+.popup-body li {
+  margin: 4px 0;
   font-size: 15px;
 }
 
