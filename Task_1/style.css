@@ -15,6 +15,28 @@ body{
   font-family: 'Lato', 'Raleway', sans-serif;
 }
 
+/* --- WINDOW CARD --- */
+.main-card {
+  width: 600px;                  
+  max-width: 90%;                
+  background-color: #ffffff;     
+  border-radius: 12px;           
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15); 
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  z-index: 10;                   
+  border: 1px solid #ddd;
+}
+
+.card-header {
+  background-color: #444444;     
+  color: #ffffff;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* ini tambahan */
 .main-content {
   flex: 1;                   
@@ -22,7 +44,9 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  padding: 25px 20px;
+  text-align: center;
 }
 
 home{
@@ -34,11 +58,14 @@ home{
 }
 
 .profile-img {
-  width: 150px;       
-  height: 150px;
+  width: 110px;
+  height: 110px;
+   /* width: 150px;       
+  height: 150px; */
   border-radius: 50%;
   object-fit: cover;
-  margin: 20px auto;
+  margin: 15px auto;
+  /* margin: 20px auto; */
   display: block;
 }
 
@@ -101,11 +128,13 @@ p, h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
-  gap: 20px;
+  gap: 30px;
+  /* gap: 20px; */
   margin: 20px 0; 
-  margin-top: 5px ;
+  margin-top: 20px;
+  /* margin-top: 5px ; */
   align-items: center;      
-  padding: 20px 0;          
+  padding: 20px 0;
 }
 
 .button-container {
@@ -123,8 +152,10 @@ p, h1, h2, h3 {
 }
 
 .circle-button img {
-  width: 100px;
-  height: 100px;
+  width: 70px;                  
+  height: 70px;
+  /* width: 100px;
+  height: 100px; */
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
@@ -132,8 +163,9 @@ p, h1, h2, h3 {
 }
 
 .circle-button p {
+  font-size: 14px;
+  /* font-size: 22px; */
   margin-top: 5px;
-  font-size: 22px;
   font-weight: bold;
   color: #000;
 }
