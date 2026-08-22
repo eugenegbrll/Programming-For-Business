@@ -243,16 +243,16 @@ p, h1, h2, h3 {
   color: white;
 } 
 
-/* @keyframes moveLeftRight {
+@keyframes moveLeftRight {
   from {
     left: 20%;
   }
   to {
     left: 70%;
   }
-} */
+} 
 
-@keyframes moveLeftRight {
+/* @keyframes moveLeftRight {
   from { left: 10%; }
   to { left: 75%; }
-}
+} */
