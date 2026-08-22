@@ -13,87 +13,89 @@
     </style>
 </head>
 <body>
-    <div class="card-header">
-      <span>home</span>
-    </div>
-    <div class="main-content"> 
-        <header>
-            <center><h1>Hi! My name is <span style="color: #ff6d4d">Eugene :)</span></h1></center>
-        </header>
-        <br>
-        <br>
-        <section class="home"> 
-            <div class="home-img">
-                <center><img src="images/solo.jpeg" alt="profile" width="100px"></center>
-            </div>
+    <div class="main-card">
+        <div class="card-header">
+          <span>home</span>
+        </div>
+        <div class="main-content"> 
+            <header>
+                <center><h1>Hi! My name is <span style="color: #ff6d4d">Eugene :)</span></h1></center>
+            </header>
             <br>
-            <div class="middle-section">
-                <center><p>Please follow my instagram : <a href="https://www.instagram.com/eugenegbrll/">eugenegbrll</a></p></center>
-                <div class="button-section">
-                    <div class="button-container">
-                        <div class="circle-button" onclick="openPopup('popup1')">
-                            <center><img src="images/hobbies.jpeg" alt="About"></center>
-                            <p>About</p>
-                        </div>
-                        <div class="circle-button" onclick="openPopup('popup2')">
-                            <center><img src="images/skills.jpeg" alt="Skills"></center>
-                            <p>Skills</p>
-                        </div>
-                        <div class="circle-button" onclick="openPopup('popup3')">
-                            <center><img src="images/projects.jpeg" alt="Projects"></center>
-                            <p>Projects</p>
+            <br>
+            <section class="home"> 
+                <div class="home-img">
+                    <center><img src="images/solo.jpeg" alt="profile" width="100px"></center>
+                </div>
+                <br>
+                <div class="middle-section">
+                    <center><p>Please follow my instagram : <a href="https://www.instagram.com/eugenegbrll/">eugenegbrll</a></p></center>
+                    <div class="button-section">
+                        <div class="button-container">
+                            <div class="circle-button" onclick="openPopup('popup1')">
+                                <center><img src="images/hobbies.jpeg" alt="About"></center>
+                                <p>About</p>
+                            </div>
+                            <div class="circle-button" onclick="openPopup('popup2')">
+                                <center><img src="images/skills.jpeg" alt="Skills"></center>
+                                <p>Skills</p>
+                            </div>
+                            <div class="circle-button" onclick="openPopup('popup3')">
+                                <center><img src="images/projects.jpeg" alt="Projects"></center>
+                                <p>Projects</p>
+                            </div>
                         </div>
                     </div>
+                <div id="popup1" class="popup">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup('popup1')">&times;</span>
+                        <h2>About</h2>
+                        <p>Hi! My name is <b><span style="color: #ff6d4d">Eugene Gabriella Setiawan.</span></b> Im 19 years old and im a student at <b><span style="color: #ff6d4d">Binus University</span></b>. I majored in <b><span style="color: #ff6d4d">Information Systems</span></b>. My birthday is in 21 September and my MBTI is ISTJ. I really like cold desserts like ice cream and i don't really like seafood.</p>
+                        <h3>Hobbies</h3>
+                        <ol>
+                            <li>movies & anime</li>
+                            <li>sleeping</li>
+                            <li>reading</li>
+                        </ol>
+                    </div>
                 </div>
-            <div id="popup1" class="popup">
+                <div id="popup2" class="popup">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup('popup2')">&times;</span>
+                        <h2>Skills</h2>
+                        <p>I'm currently learning and developing my creative and technical skills. I'm enthusiastic about continuing to improve these skills. Here are some of the skills I'm gradually learning and practicing.</p>
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>graphic design</li>
+                            <li>video editing</li>
+                            <li>database query</li>
+                            <li>python, html, css, js</li>
+                        </ul>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>canva</li>
+                            <li>capcut</li>
+                            <li>figma</li>
+                            <li>apex oracle</li>
+                            <li>vscode</li>
+                        </ul>
+                    </div>
+                </div>  
+            <div id="popup3" class="popup">
                 <div class="popup-content">
-                    <span class="close" onclick="closePopup('popup1')">&times;</span>
-                    <h2>About</h2>
-                    <p>Hi! My name is <b><span style="color: #ff6d4d">Eugene Gabriella Setiawan.</span></b> Im 19 years old and im a student at <b><span style="color: #ff6d4d">Binus University</span></b>. I majored in <b><span style="color: #ff6d4d">Information Systems</span></b>. My birthday is in 21 September and my MBTI is ISTJ. I really like cold desserts like ice cream and i don't really like seafood.</p>
-                    <h3>Hobbies</h3>
-                    <ol>
-                        <li>movies & anime</li>
-                        <li>sleeping</li>
-                        <li>reading</li>
-                    </ol>
-                </div>
-            </div>
-            <div id="popup2" class="popup">
-                <div class="popup-content">
-                    <span class="close" onclick="closePopup('popup2')">&times;</span>
-                    <h2>Skills</h2>
-                    <p>I'm currently learning and developing my creative and technical skills. I'm enthusiastic about continuing to improve these skills. Here are some of the skills I'm gradually learning and practicing.</p>
-                    <h3>Skills</h3>
+                    <span class="close" onclick="closePopup('popup3')">&times;</span>
+                    <h2>Projects</h2>
+                    <p>This is a list of projects i've done in this course.</p>
                     <ul>
-                        <li>graphic design</li>
-                        <li>video editing</li>
-                        <li>database query</li>
-                        <li>python, html, css, js</li>
-                    </ul>
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>canva</li>
-                        <li>capcut</li>
-                        <li>figma</li>
-                        <li>apex oracle</li>
-                        <li>vscode</li>
+                        <li>Task_1 : <a href="https://eugenegbrll.github.io/Programming-For-Business/Task_1/">portfolio</a></li>
+                        <li>Task_2 : <a href="https://eugenegbrll.github.io/Programming-For-Business/Task_2/">registration</a></li>
+                        <li>Task_3 : <a href="https://eugenegbrll.github.io/Programming-For-Business/Task_3/">calculator</a</li>
                     </ul>
                 </div>
             </div>  
-        <div id="popup3" class="popup">
-            <div class="popup-content">
-                <span class="close" onclick="closePopup('popup3')">&times;</span>
-                <h2>Projects</h2>
-                <p>This is a list of projects i've done in this course.</p>
-                <ul>
-                    <li>Task_1 : <a href="https://eugenegbrll.github.io/Programming-For-Business/Task_1/">portfolio</a></li>
-                    <li>Task_2 : <a href="https://eugenegbrll.github.io/Programming-For-Business/Task_2/">registration</a></li>
-                    <li>Task_3 : <a href="https://eugenegbrll.github.io/Programming-For-Business/Task_3/">calculator</a</li>
-                </ul>
-            </div>
-        </div>  
-    </section> 
-    </div>
+        </section> 
+        </div>
+    </div>    
     <div class="full-block">
         <h2><img src="images/float.jpeg" alt="float" width="150px" class="floating-img"></h2>
     </div>
