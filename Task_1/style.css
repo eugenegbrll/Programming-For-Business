@@ -142,7 +142,8 @@ p, h1, h2, h3 {
 
 .button-container {
   display: flex;
-  gap: 80px; 
+  gap: 25px;
+  /* gap: 80px;  */
 }
 
 .circle-button {
